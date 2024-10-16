@@ -8,8 +8,10 @@ function rockPaperScissors(player1, player2) {
     lizard: ['spock', 'paper']
   };
   
-
+  if (player1 === player2) {
+    return 'draw';
   }
+
 
 }
 
